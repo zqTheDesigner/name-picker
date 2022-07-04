@@ -7,7 +7,7 @@ api_router = APIRouter()
 
 PRODUCT_TEAM_NAMES = ['Wayne', 'Aalind', 'Joel', 'Sherealyn', 'Giang', 'Zhang Qiao']
 
-@api_router.get('/prod-team-rand-name', status_code=200)
+@api_router.get('/rand-name', status_code=200)
 def get_random_name() -> list:
 	'''
 	Takes a list of names and return a random list
